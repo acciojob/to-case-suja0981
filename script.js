@@ -1,5 +1,5 @@
 function toCase(str) {
-  if (str === "") {
+  if (str.trim() === "") {
     return "-";
   }
 
